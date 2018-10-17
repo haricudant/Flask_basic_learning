@@ -1,0 +1,15 @@
+def  hello(name='Hari'):
+    print('I am Hari')
+
+    def greet():
+            print('\t I am the one')
+    def cool():
+        print("Im the Second ")
+
+    if name=='Hari':
+       print('Im the masses')
+    else:
+       print("welcome")
+Iii=hello('Hari')
+
+print(Iii)

@@ -1,0 +1,10 @@
+{%extends 'profile.html' %}
+{% block body %}
+<h1>Aricles</h1>
+<ul class="list-group">
+    {%for articles in articles%}
+    <li class="list-group-item"><a href="articles/{{article.id}}">{{article.title}}></a>
+    </li>
+    {%endfor%}
+    </ul>
+      {%endblock%}
